@@ -31,4 +31,7 @@ package() {
   cp "$srcdir/$_pkgname/package.json" "$INSTALLDIR/"
   cp "$srcdir/$_pkgname/server.js" "$INSTALLDIR/"
   cp "$srcdir/$_pkgname/index.html" "$INSTALLDIR/"
+
+  mkdir -p "$pkgdir/usr/lib/systemd/system/"
+  cp "$srcdir/../pwm-server.service" "$pkgdir/usr/lib/systemd/system/"
 }

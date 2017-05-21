@@ -1,0 +1,9 @@
+[Unit]
+Description=A website that controls the STM32F1 PWM extender, written in node.js.
+
+[Service]
+ExecStart=/usr/bin/npm start
+WorkingDirectory=/usr/share/webapps/pwm-server
+
+[Install]
+WantedBy=multi-user.target
