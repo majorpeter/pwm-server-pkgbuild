@@ -2,7 +2,7 @@
 
 _pkgname="pwm-server"
 pkgname="$_pkgname-git"
-pkgver=r10.0ebe528
+pkgver=VERSION
 pkgrel=1
 pkgdesc="A website that controls the STM32F1 PWM extender, written in node.js."
 arch=('any')
